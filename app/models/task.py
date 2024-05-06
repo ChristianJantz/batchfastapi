@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 
 
-class Task(BaseModel):
+class SubmitTaskSchema(BaseModel):
     name: str
     job_id: str
     command: str

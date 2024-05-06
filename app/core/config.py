@@ -4,6 +4,7 @@ import os
 class SetupService:
    
     def __init__(self):
+        
         self.sp_credentials = ServicePrincipalCredentials(
             client_id= azure_config.AZURE_CLIENT_ID,
             secret= azure_config.AZURE_CLIENT_SECRET,
