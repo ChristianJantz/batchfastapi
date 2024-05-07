@@ -2,7 +2,7 @@ from app.models.azure import azure_config, batch_config
 from azure.common.credentials import ServicePrincipalCredentials
 import os
 class SetupService:
-   
+
     def __init__(self):
         
         self.sp_credentials = ServicePrincipalCredentials(
